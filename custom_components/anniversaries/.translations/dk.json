@@ -1,42 +1,42 @@
 {
     "config": {
-        "title": "Mærkedage",
+        "title": "Årsdage",
         "step": {
             "user": {
-                "title": "Mærkedage",
+                "title": "Årsdage",
                 "description": "Angiv sensor navnet og konfigurere sensorens parametre. Mere info på https://github.com/pinkywafer/Anniversaries",
                 "data": {
                     "name": "Navn",
                     "date": "Første dato (yyyy-mm-dd) eller (mm-yy) hvis årstallet er ukendt",
                     "icon_normal": "Ikon",
-                    "icon_today": "Ikon, når mærkedagen er opnået",
+                    "icon_today": "Ikon, når årsdagen er opnået",
                     "days_as_soon": "Antal dage, 'tæt på' betragtes som",
-                    "icon_soon": "Ikon, når mærkedagen er tæt på",
+                    "icon_soon": "Ikon, når årsdagen er tæt på",
                     "date_format": "Dato format (se http://strftime.org/)"
                 }
             }
         },
         "error": {
-            "invalid_date": "Datoen er ikke gyldig.  Angiv venligst en gyldig 'YYYY-MM-DD'  eller 'MM-DD' date"
+            "invalid_date": "Datoen er ikke gyldig.  Angiv venligst en gyldig 'YYYY-MM-DD'  eller 'MM-DD' dato"
         }
     },
     "options": {
         "step": {
             "init": {
-                "title": "Mærkedage",
+                "title": "Årsdage",
                 "description": "Skift sensor parametre. Mere info på https://github.com/pinkywafer/Anniversaries",
                 "data": {
                     "date": "Første dato (yyyy-mm-dd) eller (mm-yy) hvis årstallet er ukendt",
                     "icon_normal": "Ikon",
-                    "icon_today": "Ikon, når mærkedagen er opnået",
+                    "icon_today": "Ikon, når årsdagen er opnået",
                     "days_as_soon": "Antal dage, 'tæt på' betragtes som",
-                    "icon_soon": "Ikon, når mærkedagen er tæt på",
+                    "icon_soon": "Ikon, når årsdagen er tæt på",
                     "date_format": "Dato format (see http://strftime.org/)"
                 }
             }
         },
         "error": {
-            "invalid_date": "Datoen er ikke gyldig.  Angiv venligst en gyldig 'YYYY-MM-DD' eller 'MM-DD' date"
+            "invalid_date": "Datoen er ikke gyldig.  Angiv venligst en gyldig 'YYYY-MM-DD' eller 'MM-DD' dato"
         }
     }
 }
